@@ -1,1 +1,3 @@
 # RockPaperScissors
+
+A classic game.
