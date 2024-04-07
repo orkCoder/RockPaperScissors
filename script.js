@@ -5,7 +5,7 @@ function game () {
     computerScore = 0
     drawScore = 0
 
-    for (let i = 0; i=5; i++) {
+    for (let i = 0; i < 5; i++) {
          let answer = prompt('Rock, Paper or Scissors')
 
         //all the possible answers computer can come up with.
@@ -32,8 +32,8 @@ function game () {
                 computerScore = computerScore + 1
                 console.log(`This was a loss new score is ${humanScore}W:${drawScore}D:${computerScore}L`)
             } 
-        checker()
         }
+        checker()
     }
 }
 setTimeout(game, 1500)
