@@ -36,4 +36,4 @@ function game () {
         }
     }
 }
-setTimeout(game, 5000)
+setTimeout(game, 1500)
