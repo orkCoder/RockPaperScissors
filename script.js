@@ -5,7 +5,7 @@ function game () {
     computerScore = 0
     drawScore = 0
 
-    while (computerScore < 5 || humanScore < 5) {
+    for (let i = 0; i=5; i++) {
          let answer = prompt('Rock, Paper or Scissors')
 
         //all the possible answers computer can come up with.
